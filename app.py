@@ -7,7 +7,7 @@ API_KEY = os.environ.get("GOOGLE_API_KEY")
 
 client = genai.Client(api_key=API_KEY)
 
-MODEL = "gemini-2.5-flash"
+MODEL = "gemini-3.6-flash"
 
 
 def generate_questions(topic, difficulty, number):
